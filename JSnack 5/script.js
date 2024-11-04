@@ -7,7 +7,7 @@ console.clear();
 let odd = [];
 let i = 0;
 
-for (i = 0; i == 6; i++) {
+for (i = 0; i < 6; i++) {
   let n = parseInt(prompt("Inserisci un numero"));
   if (n % 2 !== 0) {
     odd.push(n);
